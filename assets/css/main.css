@@ -4135,3 +4135,31 @@ input, select, textarea {
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+/* 
+	#header {
+		position: relative;
+		z-index: 10;
+	} */
+	
+	@media (max-width:767px) {
+		.mq {
+			background-color: #262626;
+			padding-top: 85px;
+			font-weight: bold;
+			/* border-top: 1px solid #ccc;
+			border-bottom: 1px solid #ccc; */
+			z-index: 5; /* Ensure it's below the header if header is sticky */
+			position: relative;
+		}
+	}
+	@media (min-width:767px) {
+		.mq {
+			background-color: #262626;
+			padding-top: 70px;
+			font-weight: bold;
+			/* border-top: 1px solid #ccc;
+			border-bottom: 1px solid #ccc; */
+			z-index: 5; /* Ensure it's below the header if header is sticky */
+			position: relative;
+		}
+	}
