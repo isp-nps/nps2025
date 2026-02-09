@@ -85,7 +85,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #a8a597;
+		background: #14263F;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -100,7 +100,7 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		color: #fff;
+		color: #14263F;
 		font-family: "Open Sans", Helvetica, sans-serif;
 		font-size: 15pt;
 		font-weight: 400;
@@ -2836,40 +2836,40 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #F5EBDF;
-			color: #7A4A1F;
+			background-color: #A9DEEE;
+			color: #e8eaed;
 		}
 
 			.wrapper.style1 strong, .wrapper.style1 b {
-				color: #ffffff;
+				color: #14263F;
 			}
 
 			.wrapper.style1 h2, .wrapper.style1 h3, .wrapper.style1 h4, .wrapper.style1 h5, .wrapper.style1 h6 {
-				color: #7A4A1F;
+				color: #14263F;
 			}
 
 			.wrapper.style1 hr {
-				border-color: rgba(0, 0, 0, 0.125);
+				border-color: rgba(77, 217, 232, 0.3);
 			}
 
 			.wrapper.style1 blockquote {
-				border-color: rgba(0, 0, 0, 0.125);
+				border-color: rgba(77, 217, 232, 0.3);
 			}
 
 			.wrapper.style1 code {
-				background: rgba(255, 255, 255, 0.075);
+				background: rgba(77, 217, 232, 0.1);
 			}
 
 			.wrapper.style1 header p {
-				color: #a6e0db;
+				color: #14263F;
 			}
 
 			.wrapper.style1 header.major h2, .wrapper.style1 header.major h3, .wrapper.style1 header.major h4, .wrapper.style1 header.major h5, .wrapper.style1 header.major h6 {
-				border-color: rgba(0, 0, 0, 0.125);
+				border-color: rgba(77, 217, 232, 0.3);
 			}
 
 			.wrapper.style1 header.major p {
-				color: #7A4A1F;
+				color: #14263F;
 			}
 
 			.wrapper.style1 label {
@@ -2995,7 +2995,7 @@ input, select, textarea {
 			}
 
 		.wrapper.style2 {
-			background-color: #a8a597;
+			background-color: #0f1b2e;
 		}
 
 		.wrapper.style3 {
@@ -3463,7 +3463,7 @@ input, select, textarea {
     top: 0;
     left: 0;
     width: 100%;
-    background: #333; /* Adjust background color */
+    background: #14263F; /* Adjust background color */
     color: white;
     display: flex;
     justify-content: space-between; /* Pushes elements to the edges */
@@ -3490,7 +3490,7 @@ input, select, textarea {
     top: 0;
     left: 0;
     width: 100%;
-    background: #333;
+    background: #14263F;
     color: white;
     display: flex;
     justify-content: space-between;
@@ -3731,7 +3731,7 @@ input, select, textarea {
 			-ms-transition-delay: 1.25s;
 			transition-delay: 1.25s;
 			content: '';
-			background: #065f6a;
+			background: linear-gradient(135deg, #310369, #2554C7);
 			display: block;
 			width: 100%;
 			height: 100%;
@@ -3936,7 +3936,7 @@ input, select, textarea {
 
 .site-footer
 {
-  background-color:#26272b;
+  background-color:#14263F;
   padding:45px 0 20px;
   font-size:15px;
   line-height:24px;
@@ -4114,7 +4114,7 @@ input, select, textarea {
 	}
 
 	body.landing #footer {
-		background-color: rgba(29, 36, 42, 0.9);
+		background-color: rgba(20, 38, 63, 0.95);
 	}
 
 	body.is-mobile.landing #page-wrapper {
